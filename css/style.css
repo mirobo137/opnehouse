@@ -231,8 +231,8 @@ body, html {
 /* Responsive Layout */
 @media (max-width: 768px), (max-height: 750px) {
     .glass-card {
-        padding: 20px 15px;
-        min-height: 90vh;
+        padding: 20px 15px 15px 15px; /* Less padding on bottom */
+        min-height: fit-content; /* Don't force a large height */
         max-height: 95vh;
         border-radius: 20px;
         justify-content: center; 
